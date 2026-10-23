@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "apify-chunkers": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server@latest",
+        "--tools",
+        "skilled_glee/pdf-citation-chunker,skilled_glee/sec-filing-section-chunker,skilled_glee/subtitle-rag-chunker"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "echoempire-apify-examples-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Call skilled_glee RAG chunker Actors on Apify from Node.js",
+  "license": "MIT",
+  "scripts": {
+    "pdf": "node pdf-citation-chunker.mjs",
+    "sec": "node sec-10k-sections.mjs",
+    "subtitles": "node subtitle-rag-chunks.mjs",
+    "check": "node --check common.mjs && node --check pdf-citation-chunker.mjs && node --check sec-10k-sections.mjs && node --check subtitle-rag-chunks.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0"
+  }
+}

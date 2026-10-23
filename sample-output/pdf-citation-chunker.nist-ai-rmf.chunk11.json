@@ -1,0 +1,24 @@
+{
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "resolvedUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "sourceByteSize": 1946127,
+  "documentSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "documentId": "sha256:7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "documentIndex": 1,
+  "documentTitle": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+  "pageStart": 9,
+  "pageEnd": 9,
+  "chunkIndex": 11,
+  "pageChunkIndex": 1,
+  "chunkId": "sha256:eb84854da2821a56236aad788a57454e95d55b20602321416e0bd988da143876",
+  "chunking": {
+    "chunkSize": 3000,
+    "overlap": 300
+  },
+  "text": "NIST AI 100-1 AI RMF 1.0\nPart 1: Foundational Information\n1. Framing Risk\nAI risk management offers a path to minimize potential negative impacts of AI systems,\nsuch as threats to civil liberties and rights, while also providing opportunities to maximize\npositive impacts. Addressing, documenting, and managing AI risks and potential negative\nimpacts effectively can lead to more trustworthy AI systems.\n1.1 Understanding and Addressing Risks, Impacts, and Harms\nIn the context of the AI RMF,risk refers to the composite measure of an event’s probability\nof occurring and the magnitude or degree of the consequences of the corresponding event.\nThe impacts, or consequences, of AI systems can be positive, negative, or both and can\nresult in opportunities or threats (Adapted from: ISO 31000:2018). When considering the\nnegative impact of a potential event, risk is a function of 1) the negative impact, or magni-\ntude of harm, that would arise if the circumstance or event occurs and 2) the likelihood of\noccurrence (Adapted from: OMB Circular A-130:2016). Negative impact or harm can be\nexperienced by individuals, groups, communities, organizations, society, the environment,\nand the planet.\n“Risk management refers to coordinated activities to direct and control an organiza-\ntion with regard to risk” (Source: ISO 31000:2018).\nWhile risk management processes generally address negative impacts, this Framework of-\nfers approaches to minimize anticipated negative impacts of AI systems and identify op-\nportunities to maximize positive impacts. Effectively managing the risk of potential harms\ncould lead to more trustworthy AI systems and unleash potential benefits to people (individ-\nuals, communities, and society), organizations, and systems/ecosystems. Risk management\ncan enable AI developers and users to understand impacts and account for the inherent lim-\nitations and uncertainties in their models and systems, which in turn can improve overall\nsystem performance and trustworthiness and the likelihood that AI technologies will be\nused in ways that are beneficial.\nThe AI RMF is designed to address new risks as they emerge. This flexibility is particularly\nimportant where impacts are not easily foreseeable and applications are evolving. While\nsome AI risks and benefits are well-known, it can be challenging to assess negative impacts\nand the degree of harms. Figure 1 provides examples of potential harms that can be related\nto AI systems.\nAI risk management efforts should consider that humans may assume that AI systems work\n– and work well – in all settings. For example, whether correct or not, AI systems are\noften perceived as being more objective than humans or as offering greater capabilities\nthan general software.\nPage 4",
+  "characterCount": 2750,
+  "estimatedTokens": 688,
+  "sha256": "44947e48d536b6023529975f22daa0c718c34d38d9d3d9173a5afc2ff1781715",
+  "extractionMethod": "pypdf",
+  "processedAt": "2026-10-04T05:19:48.335934+00:00"
+}
