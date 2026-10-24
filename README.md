@@ -8,7 +8,7 @@ Code examples for three pay-per-event [Apify](https://apify.com) Actors that tur
 |---|---|---|---|
 | [PDF Citation Chunker](https://apify.com/skilled_glee/pdf-citation-chunker) | Public embedded-text PDF URL(s), up to 25 per run | page number(s), document title, `chunkId`, SHA-256, `estimatedTokens` | $0.00025 per page that yields chunks |
 | [10-K Risk Factors & MD&A Extractor](https://apify.com/skilled_glee/sec-filing-section-chunker) | Plain-text 10-K (raw text or public text URL), up to 25 per run | `sectionItem` (1, 1A, 7, 7A), heading, character offsets, `chunkId`, SHA-256 | $0.005 per document with useful output |
-| [Subtitle RAG Chunker](https://apify.com/skilled_glee/subtitle-rag-chunker) | SRT or WebVTT (raw text or public URL) | `startTimestampMs`/`endTimestampMs`, cue numbers, `chunkId`, SHA-256. Cues are never split | $0.005 per document with useful output, plus Apify platform usage |
+| [SRT & WebVTT to JSON Subtitle Chunker for RAG](https://apify.com/skilled_glee/subtitle-rag-chunker) | SRT or WebVTT (raw text or public URL) | `startTimestampMs`/`endTimestampMs`, cue numbers, `chunkId`, SHA-256. Cues are never split | $0.005 per document with useful output, platform costs included |
 
 Prices come from the live listings on 2026-10-23. The Pricing tab on each listing is authoritative.
 
